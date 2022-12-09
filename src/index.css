@@ -6,7 +6,6 @@ body{
 }
 .image{
     max-width: 600px;
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,9 +31,6 @@ body{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
-}
-.input{
-
 }
 .input1{
     position: fixed;
@@ -66,8 +62,6 @@ body{
 .button:hover{
 transition: 1s;
 opacity: 0.5;
-
-
 }
 .col{
     cursor: pointer;
@@ -107,15 +101,12 @@ opacity: 0.5;
     opacity: 0.2;
 
 }
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
 }
-
 .main {
     display: flex;
     justify-content: flex-end;
@@ -124,7 +115,6 @@ opacity: 0.5;
     overflow: hidden;
     transform: translateY(30px) translateX(-160px);
 }
-
 .settings {
     display: flex;
     flex-direction: column;
@@ -222,7 +212,6 @@ opacity: 0.5;
     border: 4px;
     transform: translateX(582px) translateY(55px);
     cursor: pointer;
-
 }
 .removeBtn:hover{
     opacity: 0.8;
@@ -268,10 +257,8 @@ opacity: 0.5;
     justify-content: center;
     padding: 30px 20px;
 }
-
 .popup_content{
     background-color: rgba(1,2,1,.1);
-
     opacity: 0.8;
     color: white;
     max-width: 500px;
@@ -287,9 +274,7 @@ opacity: 0.5;
     text-align: center;
     justify-content: center;
     font-size: 30px;
-
 }
-.popup_text{}
 .popup_area{
     position: absolute;
     width: 100%;
@@ -310,6 +295,3 @@ opacity: 0.5;
     transform: translateY(-110px) ;
 
 }
-
-
-
