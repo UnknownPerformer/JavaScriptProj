@@ -22,11 +22,7 @@
                 Here I tried to demonstrate my approximate level of JavaScript knowledge.
                 Also, I did not delete the commented text so that you could see it.
                 The page behaves poorly when zoomed and viewed with a phone
-                I will be glad if you click on all possible things on this page.<br>
-                <span style="font-size: 1.3rem">Also, as you might have noticed, the text sometimes becomes unreadable
-                    when choosing a random color for the background of the site. For this reason,
-                    I also wrote a function in which if the color is too bright,
-                    the colors of the text become dark. I did not insert it, but if necessary, I can show it</span>
+                I will be glad if you click on all possible things on this page.
 
             </div>
             <div class="popup_text">
@@ -56,10 +52,28 @@
 
 <!--<h2 class="text2" style="font-size: 3rem; color:black">Black image text</h2>-->
 <form class="input">
-<input class="input1" id="input1" type="text"  >
+<input class="input1" id="input1" list="techs" type="text">
+    <datalist  id="techs">
+        <option value="JavaScript"></option>
+        <option value="Html"></option>
+        <option value="Css"></option>
+        <option value="Sass"></option>
+        <option value="React"></option>
+        <option value="TypeScript"></option>
+        <option value="SurveyJs"></option>
+        <option value="ChoreographerJs"></option>
+        <option value="FinalForm"></option>
+        <option value="BideoJs"></option>
+        <option value="ChartJs"></option>
+        <option value="Parsley"></option>
+        <option value="D2.JS"></option>
+        <option value="Voca"></option>
+        <option value="Slick"></option>
+        <option value="Redux"></option>
+        <option value="Dropzone"></option>
+    </datalist>
 </form>
 <button class="button" id="inputValue" type="button">Press!</button>
-
 
 <div class="main">
     <div class="app">
@@ -83,7 +97,7 @@
                 </div>
 
                 <div class="slider">
-                    <label for="sepia">Сепия</label>
+                    <label for="sepia">Sepia</label>
                     <input class="slider2" type="range" min="0" max="100" value="0" id="sepia">
                 </div>
 
@@ -100,6 +114,12 @@
     </div>
 </div>
 
+    <div class="end">
+        <h2 class="endTitle">Copyright © 2022 UnknownPerformer N.I.C.E a company part of Uchiha Group.
+
+            All rights reserved(no). VAT no. IT 00594536y04</h2>
+    </div>
+
     <button class="removeBtn"><span class="remoImage" style="display: block">Remove image</span>
         <span style="display: none" class="retImage">Return Image</span></button>
 <!--    <img src="https://icons8.com/icon/39790/chevron-left">-->
@@ -109,34 +129,37 @@
     </div>
 
     <div class="black">
-    <div style="z-index: 12; color: #cccccc; opacity: 0.4; font-size: 2rem">
+    <div style="z-index: 12; color: #cccccc; font-size: 1.5rem">
         <br>
+         <br>
         <br>
-        <p>Click here</p>
-    <p>Click here</p>
-    <p>Click here</p>
-    <p>Click here</p>
-    <p>Click here</p>
-        <p>Click here</p>
-        <p>Click here</p>
-        <p>Click here</p>
-        <p>Click here</p>
-        <p>Click here</p>
-        <p>Click here</p>
-        <p>Click here</p>
+        <details style="cursor: pointer">
+            <summary>Additional info<span style="color: darkred; font-size: 3rem; font-weight: bold">  !!!</span><br><span style="font-size: 1.8rem; color: darkred ">Click here first</span></summary>
+            <div style="font-size: 1.3rem; padding: 10px">
+        <p>1: Now click at disclaimer above. Read him first</p>
+    <p>2: Estimate the input. It has hints</p>
+    <p>3. Replace the h1. Write him in input and press "Press!"</p>
+    <p>4. Change the background color. Click on the rectangle in the right corner, and it will change</p>
+    <p>5. Click the button below the rectangle to cancel</p>
+        <p>6. Now play with the photo filters. They are on the right of the photo</p>
+        <p>7. Click the arrow to the left of the photo to switch images</p>
+        <p>8. Click "Remove image" to remove image</p>
+        <p>9. Click "Return image" to return</p>
+        <br>
+        <p>If you reach this point.<br> Thanks for the attention</p>
+            </div>
+        </details>
     </div>
-        <div class="end">
-            <h2 class="endTitle">Copyright © 2022 UnknownPerformer N.I.C.E a company part of Uchiha Group.
 
-                All rights reserved(no). VAT no. IT 00594536y04</h2>
-        </div>
 </div>
+
 
 <img id="image" class="image" style=" display: block; cursor: pointer" src="assets/photo.jpg">
-    <h1 class="image" style="justify-content: center; z-index: -1 ">Hello</h1>
+    <img class="image" style="justify-content: center; z-index: -1; height: 300px " src="assets/pngegg.png">
     <img id="image2"  class="image" style=" display: none; cursor: pointer" src="assets/how-ot-make-picture-black-and-white-before.jpg">
 </div>
-    
+
+
 <script src="index.js"></script>
 <script src="filtres.js"></script>
 <script src="popup.js"></script>
